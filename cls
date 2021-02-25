@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 300 & display = swap');
+p{
+    font-size: 26px;
+    color: black ;
+    font-family: sourse Sans-pro ;
+}
+
+body {
+    background-color: 8438EC;
+}
+
+ul {
+    color: brown;
+    font-family: sourse Sans-pro;
+}
+
+section{
+    color: white;
+    font-style: normal;
+}
+
+h1{
+    color: 6418CB;
+    font-style: initial;
+}
