@@ -1,11 +1,11 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #f7f7f7;
 }
 
 .wrapper {
   width: 100%;
-  background-color: #fefefe;
 }
 
 .header {
