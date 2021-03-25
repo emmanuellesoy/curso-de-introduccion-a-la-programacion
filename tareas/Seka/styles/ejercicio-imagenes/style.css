@@ -44,7 +44,7 @@
     height: 100vh;
   }
   
-  /* Footer */
+  /* footer*/
   
   footer {
     position: absolute;
@@ -61,7 +61,7 @@
     color: #ffffff;
   }
   
-  footer > p > a:hover {
+  footer > p > a:style/ejercicio-imagenes {
     color: #676767;
   }
 
