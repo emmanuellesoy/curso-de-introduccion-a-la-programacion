@@ -1,0 +1,25 @@
+.izquierda {
+  float: left;
+  margin: 10px 10px 10px 0px;
+}
+.derecha {
+  float: right;
+  margin: 10px 0px 10px 10px;
+}
+.imagenPequeña {
+  width: 350px;
+}
+
+.imagenGrande {
+  width: 720px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("mario.png");
+  background-repeat: repeat-y;
+}
