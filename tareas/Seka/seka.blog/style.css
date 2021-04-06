@@ -5,7 +5,7 @@ body {
     .caja { 
         font-family: 'Dancing Script', cursive; 
         color: #ffffff; 
-        font-size: 18px; 
+        font-size: 30px; 
         font-weight: 400; 
         text-align: center; 
         background-image:linear-gradient( 
@@ -21,11 +21,24 @@ body {
         -moz-border-radius: 35px 0px 35px 0px; 
         -webkit-border-radius: 35px 0px 35px 0px; 
         border: 2px solid #5878ca;}
-}
 
-.wraper img {
+   .wraper img {
+  height: 300px;
+    width: 300px;
+    background: linear-gradient( 
+      90deg,
+  #fc87da 0%,
+  #cb94ef 36%,
+  #41e0e7 70%,
+  #28f6c2 100%);
+  padding: 3px;
+    border-radius: 800px;
     display: inline-block;
-  margin-top: 12px;
-    width: 200px;
-  height: 200px;
-}
+      margin: auto;
+    }
+
+    .wraper {
+      text-align: center;
+    
+    }
+
