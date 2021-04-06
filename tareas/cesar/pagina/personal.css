@@ -5,9 +5,16 @@
     font-family:  Roboto + Condensed;
 }
 
-.header .h1{
+.header .h1 .img{
     background-color: #185CCB;
     font-family: Train One, cursiva;
     cursor: all-scroll;
+    height: 25px;
+    width: 75px;
 }
 
+.body{
+    background-color: turquoise;
+    
+    font-style: italic;
+}
