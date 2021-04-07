@@ -42,3 +42,38 @@ body {
     
     }
 
+    .redes-sociales {
+      padding: 10px;
+      margin: 10px;
+      border: 2px solid #fc87da; 
+      display: inline-block;
+      right: 0;
+      top: 0;
+      position: absolute;
+      
+    }
+
+    .card {
+      width: 100%;
+      max-width: 22rem;
+      min-height: 14rem;
+      position: relative;
+      background-color: #ffffff;
+}
+
+.card_title {
+  font-family: 'Dancing Script', cursive;
+  padding: 1rem;
+  box-shadow: 0 0 1rem -0.5rem rgba(red, green, blue, alpha);
+}
+.card_title:before {
+content: "";
+width: 100%;
+height: 100%;
+background-color: #28f6c2;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+transform: rotate(6deg);
+}
