@@ -1,0 +1,50 @@
+body{
+    background:#f4f8f9 ;
+    font-family:"Roboto", sans-serif;
+    margin: 0;
+}
+
+input#menu {
+    display: none;
+}
+
+.icon{
+    background: #ffffff;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 16px;
+    width: 24px;
+}
+
+label.icon{
+    position: fixed;
+    z-index: 200;
+}
+
+.icon .menu,
+.icon .menu::before
+.icon .menu::after{
+  background: #9fb1bd;  
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  transition: background ease 0.3s,  top ease o0.3s  o.3s  transform   ease o.3s;
+  width: 20px;
+}
+
+.icon:hover .menu
+.icon:hover .menu::before
+.icon:hover .menu::after{
+    background: #fc5185;
+}
+
+.icon .menu{
+    left: 18px;
+    top: 27px;
+}
+
+.icon .menu::before{
+    top: -6px;
+}
