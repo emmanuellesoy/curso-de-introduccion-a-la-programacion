@@ -80,6 +80,7 @@ p{
     margin-bottom: 10px;
     margin-left: 10px;
     text-align: start;
+    text-align: center;
     /*
     box-shadow: none;
     box-shadow: 60px -16px  eb4a9;
@@ -87,7 +88,7 @@ p{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: inset 5em 1em #2ab7ea;
     box-shadow: 3px 3px #0772fe, -1em 0 0.4em #a15fd3;
-    
+  */  
 }
 
 /*
@@ -97,13 +98,22 @@ ul{
 }
 */
 
-.ultimo{
-
+.imagen{
+    height: 250px;
+    width: 300px;
+    
 }
 
-div{
-    display: inline-block;
+.datos{
     text-align: center;
-    float: left;
-    justify-content: center;
 }
+
+.comentarios{
+    border:  10px solid #3d27ff;
+    display: block;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    border: double #3d27ff;
+}
+
